@@ -1,0 +1,77 @@
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 4px 20px #0003;
+  padding: 0px 8px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.search-input::placeholder {
+  color: rgb(180, 180, 180);
+}
+
+.country {
+  /* width: 100%; */
+  width: 260px;
+  /* height: 360px; */
+  box-shadow: 0px 4px 20px #0003;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.country-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.country-info {
+  padding: 20px;
+}
+
+.country-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.country-text {
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.country-text span {
+  font-weight: normal;
+}
